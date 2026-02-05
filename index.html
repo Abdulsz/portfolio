@@ -15,14 +15,24 @@
 
 				<!-- Header -->
 					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Hi, I'm Abdul-Salam Zakaria</h1>
-								<p>A CS & Data Science Major and a Fullstack dev.</p>
-								<p><a href="https://drive.google.com/file/d/11VLTJ3B5SpfZgAuDBkAqve5SzEPc2ljG/view?usp=sharing" target="_blank">Resume</a></p>
+								<h1>Abdul-Salam Zakaria</h1>
+								<p class="tagline">CS & Data Science Major | Fullstack Developer</p>
+								
+								<!-- Profile Picture -->
+								<div class="hero-image">
+									<img src="images/mypic.jpg" alt="Picture of Abdul">
+								</div>
+								
+								<!-- Decorative Circles -->
+								<div class="circles">
+									<div class="circle circle-light"></div>
+									<div class="circle circle-dark"></div>
+									<div class="circle circle-white"></div>
+								</div>
+								
+								<p class="cta-link"><a href="https://drive.google.com/file/d/1vj249mKmUur63BlnpLKFzP4ah-w6aDAH/view?usp=sharing" target="_blank">Resume →</a></p>
 							</div>
 						</div>
 						<nav>
@@ -31,7 +41,6 @@
 								<li><a href="#work">Experience</a></li>
 								<li><a href="#about">Projects</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
 					</header>
@@ -42,33 +51,32 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<div class="myimage">
-									<img src="https://firebasestorage.googleapis.com/v0/b/fooddelivery-6176f.appspot.com/o/portfolio%2Fmyimg2.jpg?alt=media&token=06eed6cf-4333-41b7-bbec-40e6371aa781" alt = "Pictue of Abdul">
-					
-								</div>
-								<style>
-									.myimage img{
-										width:30%;
-										height:35%;
-										border-radius: 80%;
-										padding-top: 15px;;
-										
-									}
-								</style>
-								<p>I am a junior CS and Data Science major at Augustana College, IL. I have honed my skills in several programming languages and tools, including Java(most proficient), Kotlin, Python,  C, JavaScript, React JS, Excel, Tableau, Git and AWS. My coursework has provided me with a solid foundation in computer science principles, data structures, object-oriented programming, data analytics, and computer systems.</p>
-								<p>Outside of academics, I am an active member of the Augustana College Men's Club Soccer team, where I collaborate with the coaching staff and participate in scrimmages to ensure optimal team performance. I am also a member of the Google Developer Student Club, where I attend workshops and engage in study sessions to expand my technical knowledge and solve problems collaboratively.</p>
+							<div class="profile-image">
+								<img src="images\mypic.jpg" alt="Picture of Abdul">
+							</div>
+								<p>I’m a senior CS & Data Science student at Augustana College (graduating May 2026) focused on building reliable backends with Java/Spring Boot and full‑stack apps with React/Next.js. I enjoy shipping features end‑to‑end: data modeling, APIs, and polished UI, and I work comfortably with AWS and GCP.</p>
+								<p>Recently at Expedia I cut partner feature delivery time by 92% through API integration and platform standardization. I’ve also led and contributed to AI projects using OpenAI, LangChain, FastAPI, and vector databases. I placed 2nd in the CCSC Hackathon and stay active in campus tech communities.</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">experience</h2>
 								
-								<p>Software Development Engineer Intern (June 2025 – August 2025), Expedia Group, Seattle, WA — I implemented backend services for a scalable configuration platform that reduces engineering overhead and enables partner travel sites to launch and iterate roughly 50% faster. Integrated modular APIs to decouple legacy systems, reducing cross-team dependencies and improving delivery velocity.</p>
-								<p>Web Development Intern (Jan 2024 – Feb 2024), Augustana College Entrepreneurial Center (EDGE), Rock Island, IL — I designed and optimized client websites, increasing organic traffic by about 15% through targeted SEO improvements. I also implemented performance optimizations—trimming CSS payloads and deferring non-critical styles—to reduce page load times by approximately 20% and improve user experience.</p>
-								
-								<p>Software Engineer Fellow (July 2024 – August 2024), Headstarter, Remote — I built and deployed 5 AI projects in 5 weeks using React JS, Next.js, Firebase, Clerk, and Vercel, following agile
-									methodologies with weekly sprints and incorporated CI/CD practices for iterative deployment. Also used Git best practices to streamline team collaboration. Finally, I participated in weekly sessions with engineers from Google, Y Combinator, Stanford, Amazon and venture-backed
-									startups. </p>
+								<p><strong>Software Development Engineer Intern</strong> (June 2025 – Aug 2025), Expedia, Seattle, WA</p>
+								<ul>
+									<li>Reduced partner site feature implementation time by 92% (2 weeks → 24 hours) by integrating external hotel APIs into a Spring Boot backend replacing legacy booking systems.</li>
+									<li>Developed a REST API layer standardizing responses from 5+ third‑party hotel APIs to unify data models across the template system.</li>
+									<li>Collaborated with a GraphQL middleware team to define query schemas and validate end‑to‑end booking flow integration with the frontend.</li>
+								</ul>
+
+								<p><strong>Software Engineer Intern</strong> (Jan 2024 – Mar 2024), Augustana College Entrepreneurial Center (EDGE), Rock Island, IL</p>
+								<ul>
+									<li>Applied SEO techniques (keyword optimization, meta‑tag refinement, internal linking) to increase web traffic by 15%.</li>
+									<li>Reduced page load times by 20% by trimming CSS payloads and deferring non‑critical CSS resources.</li>
+								</ul>
+
+								<p><strong>Software Engineer Fellow</strong> (July 2024 – Aug 2024), Headstarter, Remote</p>
+								<p>I built and deployed 5 AI projects in 5 weeks using React, Next.js, Firebase, Clerk, and Vercel with agile sprints and CI/CD best practices, collaborating with mentors from leading tech companies and startups.</p>
 								<p><strong style="font-size: larger;">Languages and frameworks:</strong> Java, Kotlin, Python, C, JavaScript, HTML/CSS, React, NextJS, LangChain, SQL, Spring Boot</p>
 								<p><strong style="font-size: larger;">Tools:</strong> Git, AWS, Tableau, MS Excel, Linux</p>
 								<p><strong style="font-size: larger;">Libraries:</strong> Pandas, NumPy, TensorFlow, Spacy</p>
@@ -78,22 +86,35 @@
 						<!-- About -->
 						<article id="about">
 
-							<h2 class="major">Toxic Chat Classifier — NLP</h2>
-							<p> Trained a spaCy text classification model on 150K+ toxic and non-toxic comments, achieving 92% accuracy and a 0.82 F1 score. Containerized and deployed the model as an AWS Lambda function using Docker and Amazon ECR for scalable predictions, and optimized cold starts by bundling the model and dependencies within the container to avoid S3 latency. Tech: Python, spaCy, scikit-learn, AWS Lambda, Docker.</p>
-							<div class="image-container">
-								<img src="images/pic03.jpg" alt="" class="image main" />
-								<div class="overlay">
-								  <a href="https://github.com/Abdulsz/toxic-chat-classifier-api" class="overlay-text">GitHub</a>
-								</div>
-							  </div>
-
-
-							<h2 class="major">Gus Campus Marketplace</h2>
-							<p> Built the backend for a campus marketplace using Java and Spring Boot with a RESTful API, implementing CRUD endpoints for listing management. Designed the data persistence layer with Spring Data MongoDB and integrated Amazon S3 for media storage. Tech: Java, Spring Boot, MongoDB, Amazon S3, REST API.</p>
+							<h2 class="major">Augustana Campus Marketplace</h2>
+							<p><strong>Problem</strong>: Enable students to buy/sell items on campus with secure accounts and media uploads.</p>
+							<ul>
+								<li>Built and deployed a full‑stack marketplace used by 100+ student sellers and 120+ active listings.</li>
+								<li>Developed a Spring Boot REST API serving a Next.js frontend; implemented user‑scoped CRUD and media upload workflows.</li>
+								<li>Added secure JWT auth using Supabase; validated client‑issued tokens within Spring Boot.</li>
+								<li>Designed storage and delivery: MongoDB, Amazon S3, Docker, and Google Cloud Run with Cloud Build CI/CD for zero‑downtime releases.</li>
+							</ul>
+							<p><strong>Tech</strong>: Java, Spring Boot, MongoDB, Amazon S3, Docker, Google Cloud Run, Next.js</p>
 							<div class="image-container">
 								<img src="images/pic03.jpg" alt="" class="image main" />
 								<div class="overlay">
 								  <a href="https://github.com/bigboykA/gus-s-marketplace" class="overlay-text">GitHub</a>
+								</div>
+							  </div>
+
+
+							<h2 class="major">Toxic Chat Classifier - NLP</h2>
+							<p><strong>Problem</strong>: Automatically detect toxic messages to keep chats safe and respectful.</p>
+							<ul>
+								<li>Trained a spaCy text classification model on 150K+ toxic/non‑toxic comments, reaching 92% accuracy and 0.82 F1.</li>
+								<li>Containerized and deployed as an AWS Lambda function using Docker + Amazon ECR for scalable, serverless inference.</li>
+								<li>Reduced cold starts by bundling the model and dependencies inside the container, avoiding S3 fetch latency.</li>
+							</ul>
+							<p><strong>Tech</strong>: Python, spaCy, scikit‑learn, AWS Lambda, Docker</p>
+							<div class="image-container">
+								<img src="images/pic03.jpg" alt="" class="image main" />
+								<div class="overlay">
+								  <a href="https://github.com/Abdulsz/toxic-chat-classifier-api" class="overlay-text">GitHub</a>
 								</div>
 							  </div>
 
@@ -106,9 +127,13 @@
 								<a href="https://github.com/Abdulsz/rmp-rag" class="overlay-text">GitHub</a>
 							  </div>
 							</div>
-							<p>Implemented a web scraper with FastAPI that automatically extracts data from Rate my Professor and upsert to a
-								Pinecone index, integrated with a RAG pipeline using LangChain and OpenAI GPT-4o boosting the chatbot’s
-								response accuracy to user queries.</p>
+							<p><strong>Problem</strong>: Give students quick, conversational answers about professors and courses.</p>
+							<ul>
+								<li>Led a team of 3 to build a full‑stack Next.js chatbot powered by OpenAI for contextual answers.</li>
+								<li>Built a FastAPI scraper to extract and upsert professor data from Rate My Professor into a Pinecone vector index.</li>
+								<li>Implemented a RAG pipeline with LangChain + OpenAI (GPT‑4), improving answer relevance by ~70%.</li>
+							</ul>
+							<p><strong>Tech</strong>: Next.js, React, FastAPI, Python, OpenAI, Pinecone, LangChain</p>
 
 
 
@@ -187,37 +212,99 @@
 							<p>Built an interactive weather app using HTML, CSS, and JavaScript, leveraging the OpenWeatherMap API, enhancing weather data accuracy and reliability.</p>
 						  </article>
 						  
-						  <style>
-						  .image-container {
-							position: relative;
-							display: inline-block;
-						  }
-						  
-						  .image-container .image {
-							width: 100%;
-						  }
-						  
-						  .overlay {
-							position: absolute;
-							top: 50%;
-							left: 50%;
-							transform: translate(-50%, -50%);
-							text-align: center;
-							display: flex;
-							flex-direction: column;
-						  }
-						  
-						  .overlay-text {
-							color: white;
-							font-size: 1.5em;
-							text-decoration: none;
-							margin: 5px 0;
-						  }
-						  
-						  .overlay-text:hover {
-							text-decoration: underline;
-						  }
-						  </style>
+					  <style>
+					  /* Profile Image */
+					  .profile-image {
+						display: flex;
+						justify-content: center;
+						margin-bottom: 1.5rem;
+					  }
+					  
+					  .profile-image img {
+						width: 120px;
+						height: 120px;
+						border-radius: 50%;
+						object-fit: cover;
+						border: 3px solid hsl(240 3.7% 15.9%);
+						box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+						transition: transform 0.3s ease, box-shadow 0.3s ease;
+					  }
+					  
+					  .profile-image img:hover {
+						transform: scale(1.05);
+						box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+					  }
+					  
+					  /* Project Card */
+					  .image-container {
+						position: relative;
+						display: block;
+						border-radius: 0.75rem;
+						overflow: hidden;
+						border: 1px solid hsl(240 3.7% 15.9%);
+						background: hsl(240 3.7% 15.9%);
+						margin-bottom: 1.5rem;
+					  }
+					  
+					  .image-container .image {
+						width: 100%;
+						transition: transform 0.3s ease, opacity 0.3s ease;
+					  }
+					  
+					  .image-container:hover .image {
+						transform: scale(1.02);
+						opacity: 0.6;
+					  }
+					  
+					  .overlay {
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						justify-content: center;
+						gap: 0.75rem;
+						background: linear-gradient(180deg, transparent 0%, hsl(240 10% 3.9% / 0.85) 70%);
+					  }
+					  
+					  .overlay-text {
+						color: hsl(0 0% 98%);
+						font-size: 0.875rem;
+						font-weight: 500;
+						text-decoration: none;
+						padding: 0.5rem 1rem;
+						border-radius: 0.5rem;
+						background: hsl(240 3.7% 15.9% / 0.9);
+						border: 1px solid hsl(240 4.9% 83.9% / 0.2);
+						transition: all 0.2s ease;
+						backdrop-filter: blur(4px);
+						-webkit-backdrop-filter: blur(4px);
+					  }
+					  
+					  .overlay-text:hover {
+						background: hsl(240 3.7% 20%);
+						border-color: hsl(240 4.9% 83.9% / 0.4);
+						transform: translateY(-2px);
+						box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2);
+					  }
+					  
+					  /* Tech Stack Badge */
+					  article p strong {
+						color: hsl(0 0% 98%);
+					  }
+					  
+					  /* Section Spacing */
+					  article h2.major {
+						margin-top: 2rem;
+					  }
+					  
+					  article h2.major:first-of-type {
+						margin-top: 0;
+					  }
+					  </style>
 
 						<!-- Contact -->
 							<article id="contact">
