@@ -86,6 +86,22 @@
 						<!-- About -->
 						<article id="about">
 
+							<h2 class="major">AI Insurance Navigator</h2>
+							<div class="image-container">
+								<img src="images/pic03.jpg" alt="" class="image main" />
+								<div class="overlay">
+									<a href="https://heathcare-hack.vercel.app/" class="overlay-text">Check live site</a>
+									<a href="https://github.com/Abdulsz/healthAI-abkash" class="overlay-text">GitHub</a>
+								</div>
+							</div>
+							<p><strong>Problem</strong>: Give patients an AI agent that negotiates coverage and books care on their behalf in an agent-to-agent healthcare world.</p>
+							<ul>
+								<li>Architected and shipped a production Twilio telephony bridge + WebSocket audio streaming layer that enabled xAI Grok to conduct live phone conversations for insurance verification and provider booking.</li>
+								<li>Built a multi-stage orchestration pipeline that triggers calls, parses structured coverage/pricing data from Grok, and ranks providers by estimated patient cost.</li>
+								<li>Demonstrated full-stack ownership: backend integration, real-time audio handling, and AI agent logic.</li>
+							</ul>
+							<p><strong>Tech</strong>: TypeScript, Next.js, React, Twilio, WebSockets, xAI Grok</p>
+
 							<h2 class="major">Augustana Campus Marketplace</h2>
 							<p><strong>Problem</strong>: Enable students to buy/sell items on campus with secure accounts and media uploads.</p>
 							<ul>
@@ -102,6 +118,52 @@
 								</div>
 							  </div>
 
+							<h2 class="major">Developer Feedback Platform</h2>
+							<div class="image-container">
+								<img src="images/pic03.jpg" alt="" class="image main" />
+								<div class="overlay">
+									<a href="https://github-pr-agent.zakariatimalma.workers.dev/" class="overlay-text">Check live site</a>
+									<a href="https://github.com/Abdulsz/feedback-service" class="overlay-text">GitHub</a>
+								</div>
+							</div>
+							<p><strong>Problem</strong>: Turn user feedback into actionable code changes without slowing down development teams.</p>
+							<ul>
+								<li>Built a production-grade AI feedback platform with an embeddable widget and React dashboard, enabling teams to collect and manage user feedback across multiple projects operating with &lt;1% error rate.</li>
+								<li>Engineered a stateful GitHub PR AI agent that converts technical feedback into automated code changes, creating small, reviewable pull requests in approximately 60 seconds via the GitHub REST API.</li>
+								<li>Built a multi-tenant serverless agent backend on Cloudflare Workers and Durable Objects, architected to sustain 1,000+ concurrent feedback-to-PR workflows at the edge with monitoring and rollback capabilities.</li>
+							</ul>
+							<p><strong>Tech</strong>: Cloudflare Workers, Durable Objects, D1, TypeScript</p>
+
+							<h2 class="major">Campus Carpool Platform (GusLift)</h2>
+							<div class="image-container">
+								<img src="images/pic03.jpg" alt="" class="image main" />
+								<div class="overlay">
+									<a href="https://github.com/AugustanaCSC490Spring2026/GusLift" class="overlay-text">GitHub</a>
+								</div>
+							</div>
+							<p><strong>Problem</strong>: Help Augustana students share rides to and from campus with real-time matching and notifications.</p>
+							<ul>
+								<li>Built a campus carpool app with a React Native (Expo) frontend and a Cloudflare Workers + Durable Objects backend, using WebSockets to keep riders and drivers in sync as ride state changes.</li>
+								<li>Integrated Expo push notifications to deliver real-time ride match alerts, status updates, and confirmations within seconds of WebSocket-driven state transitions.</li>
+								<li>Debugged Google OAuth on mobile end-to-end, isolating a redirect URI mismatch in the native flow and shipping a fix that unblocked sign-in for all iOS test users.</li>
+							</ul>
+							<p><strong>Tech</strong>: React Native, Cloudflare Workers, Durable Objects, Expo</p>
+
+							<h2 class="major">ESG Audit Agent</h2>
+							<div class="image-container">
+								<img src="images/pic03.jpg" alt="" class="image main" />
+								<div class="overlay">
+									<a href="https://hack-augie.vercel.app/" class="overlay-text">Check live site</a>
+									<a href="https://github.com/Asalcedo08/HackAugie" class="overlay-text">GitHub</a>
+								</div>
+							</div>
+							<p><strong>Problem</strong>: Verify sustainability claims in corporate ESG reports against evidence and regulatory frameworks.</p>
+							<ul>
+								<li>Built a multi-agent ESG verification pipeline at HackAugie (Winner, Gemini API track) that extracts sustainability claims from corporate reports and runs parallel evidence-checker and framework-completeness agents.</li>
+								<li>Embedded ESG claims using Gemini text-embedding-001 stored in Supabase pgvector for semantic retrieval; streamed pipeline results to a Next.js App Router frontend via Server-Sent Events.</li>
+								<li>Designed the agent stages modularly: claim extraction, parallel evidence checking, framework gap detection, and third-party assurance verification, each running as an independent GPT-4o call.</li>
+							</ul>
+							<p><strong>Tech</strong>: Next.js, OpenAI Agents SDK, Gemini, RAG, TypeScript</p>
 
 							<h2 class="major">Toxic Chat Classifier - NLP</h2>
 							<p><strong>Problem</strong>: Automatically detect toxic messages to keep chats safe and respectful.</p>
